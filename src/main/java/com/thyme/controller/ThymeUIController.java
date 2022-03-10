@@ -6,8 +6,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ThymeUIController {
 
-	@GetMapping("/thyme")
+	@GetMapping
 	public String getIndx() {
 		return "index";
+	}
+	
+	@GetMapping("/about")
+	public String getAbout() {
+		return "about";
 	}
 }
