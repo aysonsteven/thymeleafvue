@@ -8,6 +8,6 @@ public class ThymeUIController {
 
 	@GetMapping("/thyme")
 	public String getIndx() {
-		return "testui";
+		return "index";
 	}
 }
